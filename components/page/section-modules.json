@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_section_modules",
+  "info": {
+    "name": "sectionModules",
+    "icon": "th-list"
+  },
+  "options": {},
+  "attributes": {
+    "module": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.module",
+      "min": 2,
+      "required": true
+    }
+  }
+}

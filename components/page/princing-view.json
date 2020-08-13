@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_princing_views",
+  "info": {
+    "name": "princingView",
+    "icon": "money-check-alt"
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "type": "integer",
+      "required": true
+    },
+    "numberInstallments": {
+      "type": "integer",
+      "required": true
+    },
+    "valueInstallment": {
+      "type": "integer",
+      "required": true
+    },
+    "listBenefits": {
+      "type": "richtext",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button"
+    }
+  }
+}
